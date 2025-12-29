@@ -1,0 +1,56 @@
+/* frontend/src/components/SummaryTable/SummaryTable.module.css */
+
+.card {
+  background: #ffffff;            /* white panel background */
+  border-radius: 12px;
+  padding: 22px;
+  box-shadow: 0 8px 24px rgba(18, 35, 58, 0.06);
+  margin: 0;
+  color: #243449;
+}
+
+.header {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 14px;
+  color: #263246;
+}
+
+.empty {
+  padding: 18px 10px;
+  color: #6b7a88;
+  font-size: 14px;
+}
+
+.tableWrap {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  color: #3b4a59;
+}
+
+.table thead th {
+  text-align: left;
+  font-weight: 600;
+  padding: 12px 10px;
+  color: #556779;
+  border-bottom: 1px solid #e9eef2;
+}
+
+.table tbody td {
+  padding: 12px 10px;
+  border-bottom: 1px solid #f2f6f9;
+}
+
+.table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.monthCell {
+  color: #243449;
+  font-weight: 600;
+}

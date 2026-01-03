@@ -183,5 +183,4 @@ Its emphasis on **periodic retraining** and **database-backed predictions** make
 
 ---
 
-📌 *Developed as an academic and portfolio project*
 
